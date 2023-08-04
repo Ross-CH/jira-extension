@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <h1>Open Jira Ticket</h1>
+    <form id="jira-form">
+      <select id="opt-board">
+        <option value="KCDEV">KCDEV</option>
+        <option value="KDATA">KDATA</option>
+        <option value="KWORK">KWORK</option>
+        <option value="KLAD">KLAD</option>
+        <option value="KYIS">KYIS</option>
+        <option value="KENG">KENG</option>
+      </select>
+      <input id="input-jira-number" type="text" autofocus>
+    </form>
+
+    <script src="./popup.js" type="module"></script>
+  </body>
+</html>
